@@ -35,7 +35,7 @@ class FizzBuzz extends PHPUnit_Framework_TestCase {
   function testResultShouldBeBuzz()
   {
     
-    $result = $this->fizzbuzz->execute(4);
+    $result = $this->fizzbuzz->execute(5);
     $this->assertEquals($result, 'buzz');
     
   }
