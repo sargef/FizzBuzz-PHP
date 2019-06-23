@@ -6,7 +6,7 @@ class FizzBuzzTest extends PHPUnit_Framework_TestCase {
   
 private $fizzbuzz;
 
-  function__construct() {
+  function __construct() {
      $this->fizzbuzz = new Fizzbuzz();
   }
   
