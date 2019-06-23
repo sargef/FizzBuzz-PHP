@@ -4,9 +4,9 @@ class Fizzbuzz
 {
 	public function execute($number)
 	{
-		//if multiplied by 3, return fizz
+		//if a multiple of 3, return fizz
 		if( ($number % 3) == 0 ) return 'fizz';
-		//if multiplied by 5, return buzz
+		//if a multiple of 5, return buzz
 		if( ($number % 5) == 0 ) return 'buzz';
 
 		return $number;
