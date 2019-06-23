@@ -2,16 +2,16 @@
 
 class Fizzbuzz
 {
-	    public function execute($number)
-	    {
+	public function execute($number)
+	{
             if( ($number % 3) == 0 ) return 'fizz';
             if( ($number % 5) == 0 ) return 'buzz';
 
-		        return $number;
+	    return $number;
 	    }
       
-	    public function play($end = 100)
-	    {
+	 public function play($end = 100)
+	 {
             $start = 1;
             $result = '';
             for( $number = $start; $number <= $end; $number ++ )
@@ -20,7 +20,8 @@ class Fizzbuzz
             }
             
 		        return substr($result, 0, -1);
-	      }
-  }
+	  }
+ }
+
 
 ?>
