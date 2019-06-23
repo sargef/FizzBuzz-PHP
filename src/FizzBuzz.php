@@ -11,8 +11,8 @@ class Fizzbuzz
 	}
 	public function play($end = 100)
 	{
-		$start .= 1;
-		$result .= '';
+		$start = 1;
+		$result = '';
 		for( $number = $start; $number <= $end; $number ++ )
 		{
 		$result .= $this->execute($number) . '';
