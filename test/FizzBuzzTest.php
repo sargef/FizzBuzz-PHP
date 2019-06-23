@@ -14,6 +14,7 @@ class FizzBuzz extends PHPUnit_Framework_TestCase {
   function testResultShouldBeOne()
     
   {
+    //for test result that equals executable of 1, (1) from src, return ok for test if it is correct.
     $result = $this->fizzbuzz->execute(1);
     $this->assertEquals($result, '1');
   }
@@ -21,20 +22,25 @@ class FizzBuzz extends PHPUnit_Framework_TestCase {
   function testResultShouldBeTwo()
     
   {
+    //for test result that equals executable of 2, (2) from src, return ok for test if it is correct.
     $result = $this->fizzbuzz->execute(2);
     $this->assertEquals($result, '2');
     
   }
+  
   function testResultShouldBeFizz()
-  {
     
+  {
+    //for test result that equals executable of 3, ('fizz') from src, return ok for test if it is correct.
     $result = $this->fizzbuzz->execute(3);
     $this->assertEquals($result, 'fizz');
     
   }
+  
   function testResultShouldBeBuzz()
-  {
     
+  {
+    //for test result that equals executable of 5, ('buzz') from src, return result if it is correct.
     $result = $this->fizzbuzz->execute(5);
     $this->assertEquals($result, 'buzz');
     
