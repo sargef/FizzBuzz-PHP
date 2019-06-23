@@ -1,6 +1,6 @@
 <?php
 
-require "./src/FizzBuzz.php";
+require "src/./FizzBuzz.php";
 
 class FizzBuzzTest extends PHPUnit_Framework_TestCase {
   
