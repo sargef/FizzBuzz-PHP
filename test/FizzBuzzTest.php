@@ -46,6 +46,17 @@ class FizzBuzz extends PHPUnit_Framework_TestCase {
     
   }
   
+  function testResultShouldAllBePrintedInConsoleIfBothArgsNotEqual()
+
+  {
+      //if arg 1 and arg 2 are not equal, return passed result, then show all results.
+      $result = $this->fizzbuzz->play();
+      $this->assertNotEquals($result, '1, 2, 3, fizz, 4, buzz');
+
+      echo $result;
+
+  }
+  
 }
 
  
